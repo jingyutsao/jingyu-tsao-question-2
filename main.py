@@ -26,7 +26,7 @@ def find_unique_char_indices(s, instruction):
     # Step 2: Depending on the instruction, find the appropriate indices
     if instruction == 'first':
         for index, char in enumerate(s):
-            if char != ' ' and char_count[char.lower()] == 1:
+            if char != ' ' and char_count[char] == 1:
                 return str(index)
         return '-1'
     elif instruction == 'all':

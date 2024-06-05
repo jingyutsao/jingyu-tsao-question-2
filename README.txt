@@ -1,6 +1,6 @@
 main.py: The functions to process input and return the letter that only appear once.
 
-test.py: The test script for jingyu_tsao_question_2.py.
+test.py: The test script for main.py.
 
 test_input_question_2.txt: All inputs that is used to test the functionality of the function.
 
