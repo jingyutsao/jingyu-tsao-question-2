@@ -1,0 +1,24 @@
+abcdefgfedcba, first
+abcdeffedcba, first
+aabbccddeeffg, first
+abcdabcd, first
+a, first
+, first
+aaabcccdeeef, first
+abcdeffghijkl, first
+aa B C d Ef F g H H, first
+Level up, first
+Cute Cat, first
+dog DOG dog, first
+abcdefgfedcba, all
+abcdeffedcba, all
+aabbccddeeffg, all
+abcdabcd, all
+a, all
+, all
+aaabcccdeeef, all
+abcdeffghijkl, all
+aa B C d Ef F g H H, all
+Level up, all
+Cute Cat, all
+dog DOG dog, all
