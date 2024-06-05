@@ -20,8 +20,9 @@ def find_unique_char_indices(s, instruction):
     # Normalize the input: convert to lowercase and remove spaces
     normalized_s = s.replace(' ', '').lower()
     
-    # Step 1: Count the frequency of each character in the normalized string
+    # Step 1: Count the frequency of each character
     char_count = Counter(s)
+    char_count_normalized = Counter(normalized_s)
     
     # Step 2: Depending on the instruction, find the appropriate indices
     if instruction == 'first':
@@ -32,7 +33,7 @@ def find_unique_char_indices(s, instruction):
     elif instruction == 'all':
         unique_indices = [
             str(index) for index, char in enumerate(normalized_s)
-            if char != ' ' and char_count[char.lower()] == 1
+            if char != ' ' and char_count_normalized[char] == 1
         ]
         return ','.join(unique_indices) if unique_indices else '-1'
     else:

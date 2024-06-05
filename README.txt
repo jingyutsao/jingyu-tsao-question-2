@@ -38,7 +38,7 @@ Example:
     a, all                     # Expected output: "0" (character 'a')
     , all                      # Expected output: "-1" (empty string)
     aaabcccdeeef, all          # Expected output: "3,7,11" (characters 'b', 'd', 'f')
-    abcdeffghijkl, all         # Expected output: "0,1,2,3,8,9,10,11" (characters 'a', 'b', 'c', 'd', 'h', 'i', 'j', 'k', 'l')
+    abcdeffghijkl, all         # Expected output: "0,1,2,3,8,9,10,11,12" (characters 'a', 'b', 'c', 'd', 'h', 'i', 'j', 'k', 'l')
     aa B C d Ef F g H H, all   # Expected output: "2,3,4,5,8" (characters 'a', 'B', 'C', 'd', 'E', 'f', 'g')
     Level up, all              # Expected output: "2,5,6" (characters 'v', 'u', 'p')
     Cute Cat, all              # Expected output: "1,3,5" (characters 'u', 'e', 'a')
